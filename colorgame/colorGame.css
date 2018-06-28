@@ -1,0 +1,86 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	/*font-family: "Calibri";*/
+	
+}
+
+h1 {
+	background-color: rgb(70,110,255);
+	color: white;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+	/*background-color: rgb(70,110,255);*/
+}
+
+#colorSelected {
+	font-size: 200%;
+
+}
+/*#Header {
+	background-color: rgb(70,110,255);
+	margin: 0;
+	text-transform: uppercase;
+}*/
+
+#strip {
+	background-color: white;
+	height: 30px;
+	color: rgb(70,110,255);
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	background-color: red;
+	border-radius: 15%;
+	transition: background	.5s;
+
+}
+
+#container {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.selected{
+	background-color: rgb(70,110,255);
+	color: white;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: rgb(70,110,255);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all .6s;
+	outline: none;
+
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	font-weight: 800;
+	letter-spacing: 1.5px;
+	font-size: 1em;
+}
+
+button:hover{
+	color: white;
+	background: rgb(70,110,255);
+}
